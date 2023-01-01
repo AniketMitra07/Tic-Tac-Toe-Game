@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+h1,h2,h3{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+.btn{
+    height: 4rem;
+    width: 6rem;
+    background: transparent;
+    border:solid white;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+   }
+#main-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-top: 10rem;
+   
+}
+#row-1 , #row-2 ,#row-3{
+    display: flex;
+    flex-direction: row;
+    
+}
+#Result-Text{
+    visibility: hidden;
+    font-size: 25px;
+}
+#Reset{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%; 
+}
+@media screen and (min-width: 900px){
+    #Reset{
+        margin-top: 2%;
+    }
+    h3{
+        margin-top: 3%;
+    }
+    #main-input{
+        margin-top: 6rem;
+    }
+
+}
+#reset-btn{
+height: 2.8rem;
+width: 5rem;
+font-size: 20px;
+border-radius: 9px;
+background-color: darkgreen;
+color: white;
+visibility: hidden;
+animation: blinking 0.5s linear infinite;
+}
+@keyframes blinking{
+    from{
+        background-color: darkgreen;
+
+    }
+    to{
+        background-color: brown;
+    }
+}
+#reset-btn:hover{
+    cursor: pointer;
+    background-color: rgb(16, 132, 16);
+}
+@keyframes Jumping{
+ 100%{
+       font-size: 55px;
+    }
+}
+#btn1{
+    border-left: none;
+    border-top: none;
+    color: red;
+    
+
+}
+#btn2{
+    border-top: none;
+    color: aqua;
+}
+#btn3{
+    border-right: none;
+    border-top: none;
+    color: blueviolet;
+}
+#btn4{
+    border-left: none;
+    color: blue;
+}
+#btn6{
+    border-right: none;
+    color: skyblue;
+}
+#btn7{
+    border-left: none;
+    border-bottom: none;
+    color: darkgreen;
+}
+#btn8{
+  border-bottom: none;
+  color: orange;
+}
+#btn9{
+    border-right: none;
+    border-bottom: none;
+    color: slategray;
+}
+
+
