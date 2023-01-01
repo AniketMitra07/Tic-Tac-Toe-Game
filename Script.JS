@@ -78,7 +78,7 @@ function CheckWinner(){
     
     if (btn1 === "x" && btn2 === "x" && btn3 === "x") {
         Diseable()
-        Result.innerHTML = "Player 1 won 😉!"
+        Result.innerHTML = "Player 1/X won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -91,7 +91,7 @@ function CheckWinner(){
     
     else if (btn4 === "x" && btn5 === "x" && btn6 === "x") {
         Diseable()
-        Result.innerHTML = "Player 1 won 😉!"
+        Result.innerHTML = "Player 1/X won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -104,7 +104,7 @@ function CheckWinner(){
     
     else if (btn7 === "x" && btn8 === "x" && btn9 === "x") {
         Diseable()
-        Result.innerHTML = "Player 1 won 😉!"
+        Result.innerHTML = "Player 1/X won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -117,7 +117,7 @@ function CheckWinner(){
     
     else if (btn1 === "x" && btn4 === "x" && btn7 === "x") {
         Diseable()
-        Result.innerHTML = "Player 1 won 😉!"
+        Result.innerHTML = "Player 1/X won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -130,7 +130,7 @@ function CheckWinner(){
     
     else if (btn2 === "x" && btn5 == "x" && btn8 === "x") {
         Diseable()
-        Result.innerHTML = "Player 1 won 😉!"
+        Result.innerHTML = "Player 1/X won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -143,7 +143,7 @@ function CheckWinner(){
     
     else if (btn3 === "x" && btn6 === "x" && btn9 === "x") {
         Diseable()
-        Result.innerHTML = "Player 1 won 😉!"
+        Result.innerHTML = "Player 1/X won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -156,7 +156,7 @@ function CheckWinner(){
     
     else if (btn1 === "x" && btn5 === "x" && btn9 === "x") {
         Diseable()
-        Result.innerHTML = "Player 1 won 😉!"
+        Result.innerHTML = "Player 1/X won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -169,7 +169,7 @@ function CheckWinner(){
     
     else if (btn3 === "x" && btn5 === "x" && btn7 === "x") {
         Diseable()
-        Result.innerHTML = "Player 1 won 😉!"
+        Result.innerHTML = "Player 1/X won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -182,7 +182,7 @@ function CheckWinner(){
     
     else if (btn1 === "0" && btn2 === "0" && btn3 === "0") {
         Diseable()
-        Result.innerHTML = "Player 2 won 😉!"
+        Result.innerHTML = "Player 2/0 won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -194,7 +194,7 @@ function CheckWinner(){
     
     else if (btn4 === "0" && btn5 === "0" && btn6 === "0") {
         Diseable()
-        Result.innerHTML = "Player 2 won 😉!"
+        Result.innerHTML = "Player 2/0 won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -207,7 +207,7 @@ function CheckWinner(){
     
     else if (btn7 === "0" && btn8 === "0" && btn9 === "0") {
         Diseable()
-        Result.innerHTML = "Player 2 won 😉!"
+        Result.innerHTML = "Player 2/0 won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -220,7 +220,7 @@ function CheckWinner(){
     
     else if (btn1 === "0" && btn4 === "0" && btn7 === "0") {
         Diseable()
-        Result.innerHTML = "Player 2 won 😉!"
+        Result.innerHTML = "Player 2/0 won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -233,7 +233,7 @@ function CheckWinner(){
     
     else if (btn2 === "0" && btn5 == "0" && btn8 === "0") {
         Diseable()
-        Result.innerHTML = "Player 2 won 😉!"
+        Result.innerHTML = "Player 2/0 won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -246,7 +246,7 @@ function CheckWinner(){
     
     else if (btn3 === "0" && btn6 === "0" && btn9 === "0") {
         Diseable()
-        Result.innerHTML = "Player 2 won 😉!"
+        Result.innerHTML = "Player 2/0 won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -261,7 +261,7 @@ function CheckWinner(){
     
     else if (btn1 === "0" && btn5 === "0" && btn9 === "0") {
         Diseable()
-        Result.innerHTML = "Player 2 won 😉!"
+        Result.innerHTML = "Player 2/0 won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
@@ -274,7 +274,7 @@ function CheckWinner(){
     
     else if (btn3 === "0" && btn5 === "0" && btn7 === "0") {
         Diseable()
-        Result.innerHTML = "Player 2 won 😉!"
+        Result.innerHTML = "Player 2/0 won 😉!"
         Result.style.visibility = "visible"
         resetbtn.style.visibility = "visible"
     audio.play();
